@@ -32,6 +32,7 @@ const DataEntryForm = () => {
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <h2>Data Entry Form</h2>
+        <p>Mehmet Ali KABA - 101453763</p>
 
         <div className="form-group">
           <div className="half-width">
