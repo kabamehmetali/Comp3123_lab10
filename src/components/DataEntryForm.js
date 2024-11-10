@@ -39,6 +39,7 @@ const DataEntryForm = () => {
             <input
               type="email"
               name="email"
+              required
               value={formData.email}
               onChange={handleChange}
               placeholder="Enter email"
@@ -49,6 +50,7 @@ const DataEntryForm = () => {
             <input
               type="text"
               name="fullName"
+              required
               value={formData.fullName}
               onChange={handleChange}
               placeholder="Full Name"
@@ -59,8 +61,10 @@ const DataEntryForm = () => {
         <div className="form-group full-width">
           <label>Address</label>
           <input
+          
             type="text"
             name="address"
+            required
             value={formData.address}
             onChange={handleChange}
             placeholder="1234 Main St"
@@ -84,6 +88,7 @@ const DataEntryForm = () => {
             <input
               type="text"
               name="city"
+              required
               value={formData.city}
               onChange={handleChange}
             />
@@ -93,6 +98,7 @@ const DataEntryForm = () => {
             <select
               name="province"
               value={formData.province}
+              required
               onChange={handleChange}
             >
               <option value="">Choose...</option>
@@ -115,6 +121,7 @@ const DataEntryForm = () => {
             <input
               type="text"
               name="postalCode"
+              required
               value={formData.postalCode}
               onChange={handleChange}
             />
